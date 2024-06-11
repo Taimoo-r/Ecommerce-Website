@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce-Web</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/75416766f8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="w-4/5 m-auto flex bg-amber-500 h-2/3 relative mt-8 rounded-lg">
+        <div id="#logo" class="text-3xl text-white p-6 font-semibold"><a href="#logo">LOGO</a></div>
+        <div class="flex justify-between right-2 absolute bg-white items-center mx-5 my-5 py-1 rounded-2xl">
+            <div><img src="images/file (1).png" class=" w-10 h-10 " alt="Cart" ></div>
+            <div id="counter" class="bg-amber-500 px-3 py-1  border rounded-full mx-2   text-2xl items-center text-white"><p id="count">0</p></div>
+        </div>
+    </header>
+    <main class="mt-8 flex flex-row w-4/5 m-auto mb-7">
+        <section class="root items w-3/5 ml-0 max-sm:flex-row max-sm:w-200px"></section>
+        <section id="sidebar" class="w-2/5 text-center text-xl ml-2 bg-slate-200 h-screen rounded-lg">
+            <div class="head bg-amber-500 m-4 p-3 rounded-xl text-white font-semibold "><p>My Cart</p></div>
+            <div id="emptyText" class="max-sm:text-sm">Your cart is Empty</div>
+            <div class="foot flex m-5 text-amber-800 font-bold justify-between border-t-2 border-solid border-black max-sm:text-sm">
+                <p>Total</p>
+                <p id="Total" >$0.00</p>
+            </div>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
